@@ -1,6 +1,6 @@
 {
   "name": "@tokenlabai/sdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Lightweight JavaScript client for TokenLab discovery, OpenAI-compatible APIs, and native endpoints.",
   "type": "module",
   "main": "./src/index.js",

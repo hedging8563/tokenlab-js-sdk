@@ -28,7 +28,7 @@ const response = await tokenlab.createResponse({
 
 ```js
 await tokenlab.createAnthropicMessage({
-  model: 'claude-sonnet-5.5',
+  model: 'claude-sonnet-5',
   max_tokens: 512,
   messages: [{ role: 'user', content: 'Hello' }],
 });
