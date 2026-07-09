@@ -2,16 +2,16 @@
 
 Lightweight JavaScript client for TokenLab discovery, OpenAI-compatible APIs, and native endpoint families.
 
-The package is prepared for npm as `@tokenlab/sdk`. Until npm publishing is complete, install from GitHub:
+Install from npm:
 
 ```bash
-npm install github:hedging8563/tokenlab-js-sdk
+npm install @tokenlabai/sdk
 ```
 
 ## Usage
 
 ```js
-import { createTokenLabClient } from '@tokenlab/sdk';
+import { createTokenLabClient } from '@tokenlabai/sdk';
 
 const tokenlab = createTokenLabClient({
   apiKey: process.env.TOKENLAB_API_KEY,
