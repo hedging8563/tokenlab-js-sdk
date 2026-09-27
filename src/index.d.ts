@@ -36,6 +36,7 @@ export declare class TokenLabClient {
   getPricingJson<T = unknown>(): Promise<T>;
   createChatCompletion<T = unknown>(body: unknown): Promise<T>;
   createResponse<T = unknown>(body: unknown): Promise<T>;
+  evaluateDecisions<T = unknown>(body: unknown, options?: Pick<RequestInit, 'signal'>): Promise<T>;
   createAnthropicMessage<T = unknown>(body: unknown): Promise<T>;
   createGeminiContent<T = unknown>(model: string, body: unknown): Promise<T>;
 }

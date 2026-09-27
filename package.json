@@ -1,6 +1,6 @@
 {
   "name": "@tokenlabai/sdk",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Lightweight JavaScript client for TokenLab discovery, OpenAI-compatible APIs, and native endpoints.",
   "type": "module",
   "main": "./src/index.js",
@@ -17,7 +17,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "test": "node --check src/index.js && node scripts/smoke.mjs",
+    "test": "node --check src/index.js && node scripts/smoke.mjs && node --test test/*.test.mjs",
     "pack:dry": "npm pack --dry-run"
   },
   "keywords": [

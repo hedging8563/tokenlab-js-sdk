@@ -88,6 +88,10 @@ export class TokenLabClient {
     return this.request('/v1/responses', { method: 'POST', body });
   }
 
+  evaluateDecisions(body, options = {}) {
+    return this.request('/v1/systemone', { signal: options.signal, method: 'POST', body });
+  }
+
   createAnthropicMessage(body) {
     return this.request('/v1/messages', { method: 'POST', body });
   }
