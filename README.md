@@ -65,4 +65,4 @@ This synchronous `/v1/systemone` call preserves typed answers, probabilities, op
 
 - API: `https://api.tokenlab.sh`
 - OpenAI-compatible SDK base URL: `https://api.tokenlab.sh/v1`
-- OpenAPI: `https://docs.tokenlab.sh/openapi.json`
+- OpenAPI: `https://tokenlab.sh/docs/openapi.json`
